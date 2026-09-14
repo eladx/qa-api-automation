@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "API automation testing project using Node.js and JSONPlaceholder",
   "scripts": {
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "test:report": "node --test --test-reporter=junit --test-reporter-destination=test-results.xml tests/*.test.js"
   },
   "keywords": [
     "qa",

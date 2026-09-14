@@ -1,0 +1,20 @@
+{
+  "name": "qa-api-automation",
+  "version": "1.0.0",
+  "description": "API automation testing project using Node.js and JSONPlaceholder",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "api-testing",
+    "rest-api",
+    "nodejs",
+    "javascript",
+    "testing"
+  ],
+  "author": "Christdale Esteban",
+  "license": "ISC",
+  "type": "module"
+}
